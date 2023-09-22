@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Mali', cursive;
+    background-color: #ffe09d;
+}
+
+.topnav {
+    padding: 9px;
+}
+
+.logo {
+    width: 55px;
+}
+
+.link1 {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffe09d;
+    overflow: hidden;
+}
+
+.link1:hover {
+    background-color: #d67dff;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+body,
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.navbar {
+    background-color: #055174;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ff95ac;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.row {
+    background-color: #055174;
+    text-align: center;
+    padding: 13%;
+    padding-bottom: 2px;
+
+    background-image: url(../Images/chicken-and-asparagus-skillet-recipe-2\ -\ Copy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.row h1 {
+    font-family: "Caveat";
+    font-style: oblique;
+    color: #ffffff;
+    font-size: 100px;
+}
+
+.row h2 {
+    color: rgb(251, 255, 0);
+    font-size: 30px;
+}
+
+.row a {
+    padding: 100px;
+    color: #e1bcff;
+    text-decoration: none;
+}
+
+
+.row a:hover {
+    color: rgb(247, 255, 216);
+    text-decoration: underline;
+}
+
+
+.searchcon {}
+
+.searchbox {
+    text-align: center;
+    width: 450px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #CCC;
+}
+
+.footer {
+    text-align: center;
+    background-color: #232b31;
+    padding: 90px;
+
+    background-image: url(../Images/R00397-Hot-Spicy-Tteokbokki.jpg);
+    background-size: cover;
+    background-blend-mode: exclusion;
+
+}
+
+.fa-brands:hover {
+    color: rgb(178, 130, 255) !important;
+}
+
+.social-foot a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+.social-foot a:hover {
+    color: #0051ff;
+    text-decoration: underline;
+}
+
+.foot p {
+    margin: 0px;
+    color: #d4fffb;
+    text-align: left;
+    font-size: 20px;
+}
+
+.foot a {
+    color: #b6fff5;
+    text-decoration: double;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+    color: #a0ccff;
+}
